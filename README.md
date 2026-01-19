@@ -4,6 +4,8 @@ This is a real time OpenGL rasterizor programmed in Python using pygame and PyOp
 If you really want to install this, by all means go ahead, though I don't really see why you would. 
 ### Instructions
 Just clone the repo and stick it wherever you want, it should work regardless of directory **BUT ONLY ON LINUX AT THE MOMENT**.
+## Usage
+Put your .OBJ file and .MTL file into the /assets/models folder, and all of your textures into the /assets/bucket folder and run ras.py.
 ## Support
 ### File support
 There is currently only support for .OBJ files and their associated file types (.MTL and texture files).Texture files must be .JPEG or .PNG, and must be placed within the /assets/bucket folder. Models must be placed within /assets/models.
